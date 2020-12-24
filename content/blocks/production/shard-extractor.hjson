@@ -17,22 +17,22 @@ consumes: {
 }
 
 results:  [
-  shadow-shard/1000
-  dark-matter/1
+  shadow-shard/1250
+  dark-matter/3
   ]
   buildCostMultiplier: 0.8
 requirements: [
-  silicon/40
+  silicon/47
   lead/215
   copper/202
 ]
 category: production
 research: {
   research: start
-  parent: shadum
+  parent: dark-matter
   reuirements: [
-    shadum/435
-    silicon/470
+    comp-shadum/635
+    silicon/770
     copper/2300
     lead/1642
   ]
