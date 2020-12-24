@@ -1,0 +1,33 @@
+type: genericCrafter
+name: "Shard Extractor"
+health: 305
+size: 2
+
+hasItems: true
+hasPower: true
+itemCapacity: 6
+
+requirements: [
+  copper/125
+  lead/55
+  graphite/27
+]
+
+consumes: {
+  power: 0.9
+}
+outputItem: shadow-shard/2
+
+craftTime: 77
+craftEffect: pulverizeSmall
+
+category: crafting
+research: {
+  research: start
+  parent: graphite
+  requirements: [
+    copper/1899
+    graphite/562
+    lead/733
+  ]
+}
