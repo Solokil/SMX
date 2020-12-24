@@ -1,5 +1,5 @@
 type: genericCrafter
-name: "Shard Extractor"
+name: "Shadow Moleculizer"
 health: 305
 size: 2
 
@@ -8,7 +8,7 @@ hasPower: true
 itemCapacity: 6
 
 requirements: [
-  copper/125
+  copper/115
   lead/55
   graphite/27
 ]
@@ -18,7 +18,7 @@ consumes: {
 }
 outputItem: shadow-shard/2
 
-craftTime: 77
+craftTime: 82
 craftEffect: pulverizeSmall
 
 category: crafting
