@@ -1,10 +1,14 @@
 color: 101010
 name: Dark Matter
-description: muda ai galera. Eu fiz só para NN bufar o jogo pelo extractor
+description: A small fragment of Anti Matter. Be carefull, this thing can be very destructive!
+explosiveness: 10
 research: {
-    parent: shadow-shard
+    research: start
+    parent: comp-shadum
     requirements: [
-      copper/100
-      lead/200
+      copper/4572
+      graphite/1245
+      comp-shadum/2140
+      shadow-shard/4952
   ]
 }
